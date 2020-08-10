@@ -1,0 +1,33 @@
+.text-modal {
+  width: 200px;
+  padding: 70px;
+  padding-top: 120px;
+  border: 2px solid black;
+  position: relative;
+  box-shadow: 0 8px 8px -6px black;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.text-field-work {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+.date-time-setter {
+  position: absolute;
+  left: 30px;
+  bottom: 60px;
+}
+
+.form-button {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}

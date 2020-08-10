@@ -1,0 +1,59 @@
+.task-block {
+  height: 200px;
+  width: 400px;
+  padding: 10px;
+  border: 2px solid black;
+  box-shadow: 0 8px 8px -6px black;
+  margin: 20px;
+}
+
+.timer-clock {
+  display: inline-block;
+  height: 100%;
+  width: 40%;
+  position: relative;
+}
+
+.task-info {
+  display: inline-block;
+  height: 100%;
+  width: 60%;
+  position: relative;
+}
+
+.info {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  right: 10px;
+}
+
+.seperator {
+  margin: 0;
+  color: black;
+}
+
+.delete {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.done {
+  position: absolute;
+  right: 90px;
+  bottom: 10px;
+}
+
+.timer-wrapper {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 30px;
+}
+
+@media (max-width: 400px) {
+  .info {
+    top: -20px;
+  }
+}
